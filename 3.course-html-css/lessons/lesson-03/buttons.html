@@ -7,7 +7,13 @@
     width: 100px;
     border-radius: 4px;
     cursor: pointer;
-
+    transition: opacity 0.15s;
+  }
+  .subscribe:hover {
+    opacity: 0.8;
+  }
+  .subscribe:active {
+    opacity: 0.6;
   }
 
   .join {
@@ -21,8 +27,17 @@
     height: 30px;
     cursor: pointer;
     margin-left: 8px;
+    transition: background-color 0.15s,
+      color 0.15s,
+      opacity 0.15s;
   }
-
+  .join:hover {
+    background-color: rgb(38, 97, 185);
+    color: #fff;
+  }
+  .join:active {
+    opacity: 0.6;
+  }
   .Tweet {
     background-color: rgb(36, 36, 255);
     font-size: 15px;
@@ -34,6 +49,13 @@
     width: 70px;
     cursor: pointer;
     margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+  .Tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .Tweet:active {
+    opacity: 0.6;
   }
 </style>
 
